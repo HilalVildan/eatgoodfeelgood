@@ -1,0 +1,41 @@
+:root {
+    --orange: rgb(237, 161, 84);
+}
+
+body{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+
+/* NAVBAR */
+
+.navbar{
+    border: 2px solid red ;
+    height: 20vh;
+
+}
+
+
+
+.nav-link{
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    color: black !important;
+    font-weight: 700;
+    /* border: 2px solid gray; */
+    margin-right: 25px;
+    border-radius: 20px;
+
+}
+
+.nav-link:hover{
+    background-color: var(--orange);
+    border-radius: 20px;
+    transition: 1s;
+    color: white !important;
+
+}
